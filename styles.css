@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --slate300: hsl(212, 45%, 89%);
+    --slate500: hsl(216, 15%, 48%);
+    --slate900: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* turning the body and card container into vertical flex containers */
+body, .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Outfit, serif;
+    text-align: center;
+}
+
+body {
+    background-color: var(--slate300);
+    height: 100vh;
+}
+
+/* card size doesn't look exactly right. may need tweaking of width and gap here, and top/bottom margin & padding elsewhere */
+.card {
+    background-color: white;
+    width: 400px;
+    border-radius: 30px;
+    gap: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 10px;                 /* spacing for attribution text, but bumps card slightly up from center */
+}
+
+img {
+    width: 90%;
+    display: block;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.text1, .text2 {
+    width: 80%;
+}
+
+/* unsure about font-sizes for the two paragraphs */
+.text1 {
+    color: var(--slate900);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.text2 {
+    color: var(--slate500);
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.attribution {
+    font-size: 11px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+

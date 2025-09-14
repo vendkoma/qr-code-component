@@ -63,6 +63,3 @@ The text below the QR code image doesn't seem completely perfectly aligned with 
 - GitHub - [@vendkoma](https://github.com/vendkoma)
 - Frontend Mentor - [@vendkoma](https://www.frontendmentor.io/profile/vendkoma)
 
-
-
-
